@@ -1,0 +1,12 @@
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiModel\bin\Debug\net5.0\FinancialApiModel.deps.json
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiModel\bin\Debug\net5.0\FinancialApiModel.dll
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiModel\bin\Debug\net5.0\ref\FinancialApiModel.dll
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiModel\bin\Debug\net5.0\FinancialApiModel.pdb
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiModel\obj\Debug\net5.0\FinancialApiModel.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiModel\obj\Debug\net5.0\FinancialApiModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiModel\obj\Debug\net5.0\FinancialApiModel.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiModel\obj\Debug\net5.0\FinancialApiModel.AssemblyInfo.cs
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiModel\obj\Debug\net5.0\FinancialApiModel.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiModel\obj\Debug\net5.0\FinancialApiModel.dll
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiModel\obj\Debug\net5.0\ref\FinancialApiModel.dll
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiModel\obj\Debug\net5.0\FinancialApiModel.pdb
