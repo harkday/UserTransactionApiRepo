@@ -1,5 +1,11 @@
+using AutoMapper;
+using FinancialApiCommons.Mapping;
 using FinancialApiDataAccess;
+using FinancialApiDataAccess.Repository.Implementation;
+using FinancialApiDataAccess.Repository.Interface;
 using FinancialApiModel.Models;
+using FinancialApiService.Repository.Implementation;
+using FinancialApiService.Repository.Interface;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -11,6 +17,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,7 +43,17 @@ namespace FinancialApiProject
                 options.UseSqlite(_config.GetConnectionString("DefaultConnection"));
             });
             services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<FinancialApiDbContext>();
-            services.AddControllers();
+            services.AddScoped<IUserTransactionService, UserTransactionService>();
+            services.AddScoped<IUserTransactionRepository, UserTransactionRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddAutoMapper(typeof(UsersMap).Assembly);
+            services.AddControllers().AddNewtonsoftJson(opt =>
+            {
+                opt.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+            }
+
+            );
             services.AddTransient<Seeder>();
             services.AddSwaggerGen(c =>
             {

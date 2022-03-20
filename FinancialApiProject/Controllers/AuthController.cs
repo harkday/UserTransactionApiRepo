@@ -16,7 +16,6 @@ namespace FinancialApiProject.Controllers
     public class AuthController : BaseController
     {
 
-        private readonly FinancialApiDbContext _context;
         public AuthController()
         {
 

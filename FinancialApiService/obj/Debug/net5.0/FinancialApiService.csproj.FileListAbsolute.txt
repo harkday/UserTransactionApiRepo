@@ -9,3 +9,9 @@ C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiService\obj\Debug\ne
 C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiService\obj\Debug\net5.0\FinancialApiService.dll
 C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiService\obj\Debug\net5.0\ref\FinancialApiService.dll
 C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiService\obj\Debug\net5.0\FinancialApiService.pdb
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiService\bin\Debug\net5.0\FinancialApiDataAccess.dll
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiService\bin\Debug\net5.0\FinancialApiModel.dll
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiService\bin\Debug\net5.0\FinancialApiDataAccess.pdb
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiService\bin\Debug\net5.0\FinancialApiModel.pdb
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiService\obj\Debug\net5.0\FinancialApiService.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\FinancialApiProjectSln\FinancialApiService\obj\Debug\net5.0\FinancialApiService.csproj.CopyComplete
