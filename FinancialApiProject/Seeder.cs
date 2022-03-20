@@ -26,7 +26,7 @@ namespace FinancialApiProject
 
         public async Task SeedInData()
         {
-            _context.Database.EnsureCreated();
+             _context.Database.EnsureCreated();
        
          var path_UserSeeds = @"./Seeds.json";
 
@@ -34,13 +34,13 @@ namespace FinancialApiProject
             var users = JsonSerializer.Deserialize<List<User>>(userData);
             if (!_context.Users.Any())
             {
-                _context.Users.AddRange(users);
+               _context.Users.AddRange(users);
                
 
 
             }
 
-            _context.SaveChanges();
+             _context.SaveChanges();
 
 
 

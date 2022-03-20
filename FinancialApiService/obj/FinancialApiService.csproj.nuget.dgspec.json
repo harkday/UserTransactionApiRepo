@@ -4,14 +4,98 @@
     "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiService\\FinancialApiService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiService\\FinancialApiService.csproj": {
+    "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiDataAccess\\FinancialApiDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiService\\FinancialApiService.csproj",
-        "projectName": "FinancialApiService",
-        "projectPath": "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiService\\FinancialApiService.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiDataAccess\\FinancialApiDataAccess.csproj",
+        "projectName": "FinancialApiDataAccess",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiDataAccess\\FinancialApiDataAccess.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiService\\obj\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiModel\\FinancialApiModel.csproj": {
+                "projectPath": "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiModel\\FinancialApiModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiModel\\FinancialApiModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiModel\\FinancialApiModel.csproj",
+        "projectName": "FinancialApiModel",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiModel\\FinancialApiModel.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +123,87 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiService\\FinancialApiService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiService\\FinancialApiService.csproj",
+        "projectName": "FinancialApiService",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiService\\FinancialApiService.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiDataAccess\\FinancialApiDataAccess.csproj": {
+                "projectPath": "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiDataAccess\\FinancialApiDataAccess.csproj"
+              },
+              "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiModel\\FinancialApiModel.csproj": {
+                "projectPath": "C:\\Users\\hp\\source\\repos\\FinancialApiProjectSln\\FinancialApiModel\\FinancialApiModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[27.2.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,13 +1,14 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using System;
 using System.Collections.Generic;
 namespace FinancialApiModel.Models
 {
     public  class User:IdentityUser 
     {
-        public string UserId { get; set; }
+        public string UserId { get; set; } = Guid.NewGuid().ToString();
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string AccountNo { get; set; }
+        public string AccountNo { get; set; } = new Random().Next(1111111111, 2142222222).ToString();
         public List<Account> Accounts { get; set; }
         public List<UserTransaction> UserTransactions { get; set; }
         public User()
